@@ -32,7 +32,7 @@ def ab(n):
 
 pt(2,4)'''
 
-n=5
+'''n=5
 for i in range(n):
     for j in range(i,n):
         print(" ",end=' ')
@@ -115,3 +115,11 @@ print(match.group())  # Output: fox
 print(match.start())  # Output: 16
 print(match.end())    # Output: 19
 print(match.span())   # Output: (16, 19)
+
+try:
+    print(10/20)
+except:
+    print("Error")'''
+
+f1=open("ok.txt","a")
+print(f1.readline(5))
