@@ -121,5 +121,18 @@ try:
 except:
     print("Error")'''
 
-f1=open("ok.txt","a")
-print(f1.readline(5))
+'''approx=0.5*5
+for i in range(10):
+    betterapprox=0.5*(approx+5/approx)
+    approx=betterapprox
+
+print(betterapprox)'''
+
+'''x=1
+for i in range(n):
+    for j in range(i+1):
+        print(x,end=' ')
+        x+=1
+    print() '''
+
+print("helolo".strip("heeolee"))
