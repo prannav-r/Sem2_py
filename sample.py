@@ -42,9 +42,7 @@ for i in range(n):
 
 
 x=231.21345124
-print(format(x,"0.3f"))
-
-import re
+print(format(x,"0.3f"))'''
 
 # Define a sample text
 text = "The quick brown fox jumps over the lazy dog"
@@ -60,7 +58,7 @@ matches2 = re.findall(pattern2, text)
 print("2. Character set complement ^:", matches2)
 
 # 3. Caret ^
-pattern3 = r'^fox'
+pattern3 = r'^The'
 matches3 = re.findall(pattern3, text)
 print("3. Caret ^:", matches3)
 
@@ -80,7 +78,7 @@ matches6 = re.findall(pattern6, text)
 print("6. Plus +:", matches6)
 
 # 7. Question mark ?
-pattern7 = r'fo?x'
+pattern7 = r'fox?'
 matches7 = re.findall(pattern7, text)
 print("7. Question mark ?:", matches7)
 
@@ -116,7 +114,7 @@ print(match.start())  # Output: 16
 print(match.end())    # Output: 19
 print(match.span())   # Output: (16, 19)
 
-try:
+'''try:
     print(10/20)
 except:
     print("Error")'''
@@ -133,6 +131,34 @@ for i in range(n):
     for j in range(i+1):
         print(x,end=' ')
         x+=1
-    print() '''
+    print()'''
 
-print("helolo".strip("heeolee"))
+
+'''x_cor=y_cor=0
+
+while True :
+    val=input("Enter Instruction:")
+    inst=val.split(" ")
+    if inst[0]=="UP":
+        y_cor+=int(inst[1])
+    elif inst[0]=="DOWN":
+        y_cor-=int(inst[1])
+    elif inst[0]=="LEFT":
+        x_cor-=int(inst[1])
+    else:
+        x_cor+=int(inst[1])
+
+    ch=input("Do you want another instruction?")
+    if ch.lower()=="n":
+        distance=(int((x_cor**2+y_cor**2)**0.5))
+        print("Distance Travelled: ",distance)
+        break'''
+
+'''x=input("Enter the Sentence:")
+y=x.split()
+for i in range(0,len(y)):
+    y[i]=y[i][::-1]
+
+for i in y:
+    print(i,end=" ")'''
+
